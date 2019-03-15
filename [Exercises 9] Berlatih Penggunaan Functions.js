@@ -6,14 +6,11 @@ console.log(shoutOut());
 
 /* ini soal nomer 2 */
 
-function calculateMultiply(){
+function calculateMultiply(num1, num2){
   return a = num1 * num2;
 }
 
-var num1 = 5;
-var num2 = 6;
-
-var hasilPerkalian = calculateMultiply(num1,num2);
+var hasilPerkalian = calculateMultiply(5,6);
 console.log(hasilPerkalian);
 
 /* ini soal nomer 3 */
