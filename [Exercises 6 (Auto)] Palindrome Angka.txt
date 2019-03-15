@@ -1,0 +1,30 @@
+function angkaPalindrome(input) {
+
+var input;
+var a = false
+
+while ( a === false ) {
+
+  input = input + 1
+  input = input.toString();
+
+  var i;
+  var balik = '';
+
+  for (i = input.length - 1; i >= 0; i--) {
+
+    balik += input[i];
+  }
+
+  if (input === balik) {
+    return input 
+    return a = true
+  }
+
+  input = Number(input);
+
+}
+
+}
+
+console.log(angkaPalindrome(1000));

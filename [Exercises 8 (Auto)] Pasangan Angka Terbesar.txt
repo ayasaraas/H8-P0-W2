@@ -1,0 +1,33 @@
+function pasanganTerbesar(angka) {
+
+var angka;
+angka = angka.toString();
+
+var nomer = angka.split("");
+
+ var num = [];
+
+for(i = 0; i < nomer.length -1; i++) {
+  num[i] = (nomer[i] + nomer [i + 1]) ;
+}
+
+var maks;
+var nilai;
+
+for (var i=0; i<num.length; i++) {
+  if (i == 0) {
+    var maks = num[i];
+  }
+  else {
+    if (num[i] > maks) {
+      maks = num[i];
+    }
+  }
+}
+
+return maks;
+
+
+}
+
+console.log(pasanganTerbesar(79918293));
